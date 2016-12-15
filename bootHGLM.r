@@ -48,7 +48,7 @@ R_hglm=sum(Y.u.lower)
 
 ###############################
 #Residual Bootstrap HGLM RMSEP
-n.sim=100
+n.sim=1000
 resid= (claim-Y.u.upper)/sqrt(Y.u.upper^p) 
 
 RMSEP_hglm <-QAPE_hglm <-NULL
